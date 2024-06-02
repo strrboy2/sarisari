@@ -1,0 +1,73 @@
+header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+main {
+    border: 1px solid black;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+}
+
+.product-list, .cart {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.product-list {
+    height: 230px; /* Fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: add a border for visual separation */
+    padding: 0;
+    list-style-type: none; /* Remove default list styling */
+}
+
+.cart{
+    height: 230px; /* Fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: add a border for visual separation */
+    padding: 0;
+    list-style-type: none; /* Remove default list styling */
+}
+
+h2 {
+    text-align: center;
+}
+
+.product-list li,
+.cart li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Optional: add a bottom border to each item */
+}
+
+button {
+    margin-left: 10px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+#search-input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#search-button {
+    padding: 5px 10px;
+}

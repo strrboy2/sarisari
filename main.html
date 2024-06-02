@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sari-Sari Store Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Store Calculator</h1>
+        <div class="product-list ">
+            <h2>Product List</h2>
+            <input type="text" id="search-input" placeholder="Search products..." /> 
+            <button id="search-button">Search</button>
+            <ul id="product-list">
+                <!-- Products will be added here dynamically -->
+            </ul>
+        </div>
+        <div class="cart">
+            <h2>Added Products</h2>
+            <ul id="cart">
+                <!-- Cart items will be added here dynamically -->
+            </ul>
+        </div>
+        <h3>Total Cost Price: PHP<span id="total-cost-price">0.00</span></h3>
+            <h3>Total Retail Price: PHP<span id="total-retail-price">0.00</span></h3>
+            <h3>Profit: PHP<span id="profit">0.00</span></h3>
+            <button id="reset-cart">Reset Cart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
